@@ -61,7 +61,7 @@ export default function PortfolioSection() {
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="bg-gradient-to-br w-[406px] h-[493px] flex flex-col gap-[18px] from-zinc-900 to-zinc-800 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300"
+            className="bg-linear-to-br w-101.5 h-123.25 flex flex-col gap-4.5 from-zinc-900 to-zinc-800 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300"
           >
             <div className="overflow-hidden">
               <img
