@@ -1,5 +1,7 @@
-import Image from "next/image";
+import HomePage from "@/featured/page/Home";
 
 export default function Home() {
-  return <div></div>;
+  return <div>
+    <HomePage/>
+  </div>;
 }

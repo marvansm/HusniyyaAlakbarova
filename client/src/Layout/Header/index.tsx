@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className=" relative px-16.25 py-10 ">
       <nav className="  flex items-center justify-between">
-        <div className="w-18 h-18 rounded-full overflow-hidden shrink-0 relative z-[999]">
+        <div className="w-18 h-18 rounded-full overflow-hidden shrink-0 relative z-999">
           <Image
             src="https://thumbs.dreamstime.com/b/portrait-young-blonde-hair-woman-shirt-formalwear-thumb-up-like-symbol-promoting-linkedin-profile-isolated-beige-color-311675446.jpg"
             alt="logo"
@@ -55,10 +55,10 @@ const Header = () => {
           className="
          absolute
         top-[-192.0001px]
-        left-[-365px]
+        -left-91.25
         bg-cover
-    w-[730px]
-    h-[927px]
+    w-182.5
+    h-231.75
     rotate-[-90.184deg]
     bg-[url('/Texture.png')]
     mix-blend-overlay
