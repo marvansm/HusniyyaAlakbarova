@@ -57,11 +57,11 @@ export default function PortfolioSection() {
         ))}
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 py-20 px-6 mx-auto gap-3  ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 py-20 px-6 mx-auto gap-3 ">
         {filteredProjects.map((project) => (
           <div
             key={project.id}
-            className="bg-linear-to-br w-101.5 h-123.25 flex flex-col gap-4.5 from-zinc-900 to-zinc-800 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] transition duration-300"
+            className="w-101.5 h-123.25 flex flex-col bg-[#1C1C1E] gap-4.5 rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] hover:bg-[#4F3C9D] transition duration-300"
           >
             <div className="overflow-hidden">
               <img
@@ -71,7 +71,7 @@ export default function PortfolioSection() {
               />
             </div>
 
-            <div className="pt-0 pr-3 pb-0 pl-[22px]">
+            <div className="pt-0 pr-3 pb-0 pl-[22px] ">
               <h3 className="text-white text-[20px] font-semibold leading-[30px] font-poppins mb-3">
                 {project.title}
               </h3>
@@ -79,14 +79,14 @@ export default function PortfolioSection() {
                 {project.desc}
               </p>
 
-              <div className="flex flex-wrap gap-2.5 text-[16px] ">
-                <span className="px-4 py-1  rounded-full border border-zinc-700 text-gray-400">
+              <div className="flex flex-wrap gap-2.5 text-[16px] font-poppins font-normal  text-white ">
+                <span className="p-2.5 rounded-[10px] hover:bg-[#8953C5]  border border-[#2D2D32] ">
                   UX/UI
                 </span>
-                <span className="px-4 py-1  rounded-full border border-zinc-700 text-gray-400">
+                <span className="p-2.5  rounded-[10px] hover:bg-[#8953C5] border border-[#2D2D32] ">
                   Landing page
                 </span>
-                <span className="px-4 py-1  rounded-full border border-zinc-700 text-gray-400">
+                <span className="p-2.5  rounded-[10px] hover:bg-[#8953C5] border border-[#2D2D32] ">
                   Web design
                 </span>
               </div>
