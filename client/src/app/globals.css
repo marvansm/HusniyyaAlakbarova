@@ -4,6 +4,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-poppins: var(--font-poppins);
+  --font-mukta: var(--font-mukta);
 }
 
 body {

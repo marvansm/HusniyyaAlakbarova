@@ -23,48 +23,7 @@ const Header = () => {
           </button>
         </div>
       </nav>
-      <div>
-        <div
-          className="
-    absolute
-    w-[369.582px] h-[365.188px]
-    top-[-101.1049px]
-    left-[-202.7122px]
-    rounded-full
-    blur-[50px]
-  "
-          style={{
-            transform: "rotate(-90.184deg)",
-            background:
-              "linear-gradient(180deg, #F22FB0 0%, rgba(245, 138, 37, 0) 71.87%)",
-          }}
-        />
-        <div
-          className="absolute top-[-82.5365px] left-[-172.8273px]"
-          style={{
-            width: "505.095px",
-            height: "499.09px",
-            transform: "rotate(-90.184deg)",
-            borderRadius: "505.095px",
-            background:
-              "linear-gradient(180deg, #FF7BBA 0%, rgba(148, 111, 255, 0.46) 100%)",
-            filter: "blur(100px)",
-          }}
-        />
-        <div
-          className="
-         absolute
-        top-[-192.0001px]
-        -left-91.25
-        bg-cover
-    w-182.5
-    h-231.75
-    rotate-[-90.184deg]
-    bg-[url('/Texture.png')]
-    mix-blend-overlay
-  "
-        />
-      </div>
+ 
     </header>
   );
 };

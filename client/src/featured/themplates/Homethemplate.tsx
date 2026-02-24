@@ -1,11 +1,13 @@
-import BannerSection from "../sections/home/BannerSection"
+import AboutMeSection from "../sections/home/AboutMe";
+import BannerSection from "../sections/home/BannerSection";
 
 const Homethemplate = () => {
   return (
     <div>
-        <BannerSection/>
+      <BannerSection />
+      <AboutMeSection />
     </div>
-  )
-}
+  );
+};
 
-export default Homethemplate
+export default Homethemplate;
