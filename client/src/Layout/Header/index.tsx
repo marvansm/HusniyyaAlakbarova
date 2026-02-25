@@ -18,12 +18,11 @@ const Header = () => {
             <li>Services</li>
             <li>Training</li>
           </ul>
-          <button className="flex w-37.5 h-12 px-2 py-3 items-center justify-center gap-3.5 border-0 bg-[#6200EE] text-white font-poppins text-[16px] font-normal leading-6 rounded-[50px]">
+          <button className="flex w-37.5 h-12 px-2 py-3 items-center justify-center gap-3.5 border-0 bg-[#6200EE] text-white font-poppins text-[16px] outline-0 font-normal leading-6 rounded-[50px]">
             Contact me
           </button>
         </div>
       </nav>
- 
     </header>
   );
 };
