@@ -5,7 +5,7 @@ import ContactSection from "../sections/services/contactSection";
 
 const ServiceTemp = () => {
   return (
-    <div className="z-999 absolute flex items-center justify-center flex-col ">
+    <div className="z-999  flex items-center justify-center flex-col ">
       <ServiceHeading />
       <PortfolioSection />
       <ContactSection/>

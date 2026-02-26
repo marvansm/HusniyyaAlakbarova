@@ -1,63 +1,57 @@
-
 const TrainingSection = () => {
   return (
-    
- 
     <section className=" bg-black py-20 px-6">
-      <div className=" max-w-[1440px] mx-auto grid lg:grid-cols-2 gap-16 items-center">
-
-       
-        <div className="relative flex justify-center">
-
-          {/* Main Image */}
+      <div className=" max-w-[1440px] mx-auto flex gap-3 items-center">
+        <div className="relative w-[532px] flex justify-center">
+    
           <img
             src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
             alt="main"
-            className="w-[420px] h-[520px] object-cover rounded-3xl"
+            className="w-[420px] h-[600px] object-cover rounded-3xl"
           />
 
-          {/* Small Overlay Image */}
+        
           <img
             src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28"
             alt="overlay"
-            className="absolute -left-10 bottom-16 w-[250px] h-[180px] object-cover rounded-2xl shadow-xl"
+            className="absolute -left-12 bottom-14 w-[340px] h-[240px] object-cover rounded-2xl shadow-xl"
           />
 
-          {/* Purple Circle */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/3
-                          w-40 h-40 rounded-full
-                          bg-gradient-to-br from-purple-600 to-indigo-700
+   
+          <div
+            className="absolute bottom-[65px] left-2/5 -translate-x-1/2 translate-y-1/3
+                          w-[200px] h-[200px] rounded-full
+                          bg-[#6200EE]
                           flex items-center justify-center
-                          text-white text-3xl font-semibold shadow-2xl">
+                          text-white text-3xl font-semibold shadow-2xl"
+          >
             1,485+
           </div>
-
         </div>
 
-        {/* RIGHT SIDE */}
-        <div>
-
-          {/* Small Label */}
+    
+        <div className="w-[755px]">
+          
           <div className="flex items-center gap-3 mb-6">
             <span className="w-3 h-3 rounded-full bg-purple-600"></span>
-            <p className="text-gray-400">About Company</p>
+            <p className="text-white text-[18px] font-mukta leading-7">About Company</p>
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl lg:text-5xl font-semibold text-lime-400 leading-tight mb-6">
-            We Are The Best Online Payment Gateway Agency
+          <h2 className="text-[56px] font-normal text-[#D1FE4E] font-mukta  leading-16 mb-6">
+            We Are The Best Online Payment Gateway <br /> Agency
           </h2>
 
           {/* Paragraph */}
-          <p className="text-gray-400 mb-10 leading-relaxed">
+          <p className="text-white text-[18px] font-mukta font-normal mb-10 leading-]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
           </p>
 
           {/* FEATURES */}
           <div className="space-y-8">
-
             {/* Item 1 */}
             <div className="flex gap-4">
               <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
@@ -102,16 +96,11 @@ const TrainingSection = () => {
                 </p>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
+  );
+};
 
-
-
-  )
-}
-
-export default TrainingSection
+export default TrainingSection;
