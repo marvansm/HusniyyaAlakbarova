@@ -1,9 +1,11 @@
 import TrainingSection from "../sections/training/trainingSection"
+import StudentSliderSection from "../sections/training/StudentSliderSection"
 
 const Trainingthemp = () => {
   return (
     <div>
-      <TrainingSection/>
+      <TrainingSection />
+      <StudentSliderSection />
     </div>
   )
 }

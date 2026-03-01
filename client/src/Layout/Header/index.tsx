@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -14,9 +15,9 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-28.75">
           <ul className="flex items-center gap-16.25 text-white font-poppins text-[24px] font-semibold leading-8">
-            <li>About us</li>
-            <li>Services</li>
-            <li>Training</li>
+            <li><Link href="/about">About us</Link></li>
+            <li><Link href="/service">Services</Link></li>
+            <li><Link href="/training">Training</Link></li>
           </ul>
           <button className="flex w-37.5 h-12 px-2 py-3 items-center justify-center gap-3.5 border-0 bg-[#6200EE] text-white font-poppins text-[16px] outline-0 font-normal leading-6 rounded-[50px]">
             Contact me

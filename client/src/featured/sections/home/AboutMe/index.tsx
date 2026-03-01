@@ -13,15 +13,19 @@ const AboutMeSection = () => {
           <div className="col-span-6">
             <div className="w-[548px] flex flex-col gap-[16px] items-start">
               <p className="text-[#D4D4D8] text-[24px] leading-[32px] font-medium font-mukta">
-                Hi, I'm a passionate developer and designer with a love for
-                creating beautiful, functional digital experiences. With several
-                years of experience in web development, I specialize in building
-                modern, responsive websites and applications.
+                Hi, I’m **Husniyya Alakbarova** — a Graphic and UX/UI Designer,
+                as well as a passionate Instructor. I started this journey as a
+                student with no background in design, just curiosity and
+                consistency. Over time, I built my own career from home, step by
+                step, and today I help others do the same.
               </p>
               <p className="text-[#9F9FA9] text-[24px] leading-[32px] font-medium font-mukta">
-                My approach combines clean code, thoughtful design, and
-                attention to detail to deliver products that not only look great
-                but also provide exceptional user experiences.
+                For the past 3 years, I’ve been working with over 500 students
+                and collaborating with brands to build meaningful digital
+                experiences. To me, design is not just about visuals — it’s
+                about helping people express their ideas clearly and
+                confidently. <br />
+                “Design changed my life — now I help others do the same.”
               </p>
             </div>
           </div>

@@ -6,27 +6,24 @@ const tabs = ["All", "Branding", "Web Design", "App design", "Product Design"];
 const projects = [
   {
     id: 1,
-    title: "Landau Web Design",
+    title: "Qrafik dizayn telimi",
     desc: "Figma ipsum component variant main layer. Figma ipsum component variant main layer.",
     category: "Web Design",
-    image:
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200",
+    image: "/qrafik.jpeg",
   },
   {
     id: 2,
-    title: "Brand Identity",
+    title: "Şəxsi brendinq təlimi",
     desc: "Figma ipsum component variant main layer. Figma ipsum component variant main layer.",
     category: "Branding",
-    image:
-      "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1200",
+    image: "/dizayn.jpeg",
   },
   {
     id: 3,
-    title: "Mobile App UI",
+    title: "Ux uı dizayn təlimi",
     desc: "Figma ipsum component variant main layer. Figma ipsum component variant main layer.",
     category: "App design",
-    image:
-      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200",
+    image: "/brendinq.jpeg",
   },
 ];
 

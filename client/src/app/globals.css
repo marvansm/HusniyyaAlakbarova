@@ -5,6 +5,17 @@
   --color-foreground: var(--foreground);
   --font-poppins: var(--font-poppins);
   --font-mukta: var(--font-mukta);
+  --animate-marquee: marquee 150s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
 
 body {
