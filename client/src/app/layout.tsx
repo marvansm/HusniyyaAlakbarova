@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Poppins,Mukta } from "next/font/google";
+import { Poppins, Mukta } from "next/font/google";
 import "./globals.css";
+import NextTopLoader from "nextjs-toploader";
 
 const PoppinsFont = Poppins({
   subsets: ["latin"],
@@ -25,7 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${PoppinsFont.variable} ${MuktaFont.variable} antialiased`}>{children}</body>
+      <body className={` ${PoppinsFont.variable} ${MuktaFont.variable} antialiased`}>
+        <NextTopLoader color="#D1FE4E" showSpinner={true} />
+        {children}
+      </body>
     </html>
   );
 }
