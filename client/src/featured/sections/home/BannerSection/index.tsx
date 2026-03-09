@@ -29,7 +29,7 @@ const BannerSection = () => {
           </button>
         </div>
         <div className="justify-self-end avatar w-[472px] shrink-0 h-[472px] rounded-[472px] border-[4px] border-[rgba(250,78,77,0.5)] bg-white shadow-[0_6px_6px_0_rgba(0,0,0,0.47)] relative overflow-hidden">
-          <Image src="https://images.pexels.com/photos/32279573/pexels-photo-32279573.jpeg" alt="Avatar" fill />
+          <Image src="/avatar.jpeg" alt="Avatar" fill className="object-cover" />
         </div>
       </div>
     </div>

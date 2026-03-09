@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="  flex items-center justify-between">
         <div className="w-18 h-18 rounded-full overflow-hidden shrink-0 relative z-999">
           <Image
-            src="https://thumbs.dreamstime.com/b/portrait-young-blonde-hair-woman-shirt-formalwear-thumb-up-like-symbol-promoting-linkedin-profile-isolated-beige-color-311675446.jpg"
+            src="/avatar.jpeg"
             alt="logo"
             fill
             className="object-cover"

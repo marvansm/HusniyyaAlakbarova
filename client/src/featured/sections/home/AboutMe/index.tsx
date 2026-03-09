@@ -8,7 +8,7 @@ const AboutMeSection = () => {
 
         <div className="grid grid-cols-12 gap-[124px]">
           <div className="col-span-6 flex justify-center items-center">
-            <div className="w-[473px] h-[352px] rounded-3xl bg-[url('https://images.pexels.com/photos/32279573/pexels-photo-32279573.jpeg')] bg-cover bg-center bg-no-repeat bg-gray-300"></div>
+            <div className="w-[473px] h-[352px] rounded-3xl bg-[url(/aboutme.jpeg)] bg-cover bg-center bg-no-repeat bg-gray-300"></div>
           </div>
           <div className="col-span-6">
             <div className="w-[548px] flex flex-col gap-[16px] items-start">
